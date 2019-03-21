@@ -1,0 +1,94 @@
+DUE ON RELEVANT DEADLINES AS GIVEN UNDER ! 
+
+ASSIGN TO PROGRAMMERS 
+
+
+Week 1: Due 02/24/2019
+Create a tabbed app using Xcode that records, saves, and plays audio utilizing background services in iOS. Create two tabs that display one screen each. Use Swift as your programming language.
+
+Include the following modifications and features:
+
+Screen Tab One:
+Home screen that has a centered logo image and labels below with student name, class, and date
+Screen Tab Two:
+A button that allows the user to record their voice and save the file in the media library of the device
+Displays a dialog telling the user that the media file has been successfully played
+A button that allows the user to play the voice file in the background while being able to change tabs and minimize the app
+A button that allows the user to stop the background media file if playing
+Compile all files into a ZIP folder.
+
+
+____________________________________________________________________________________________
+Week 2: Due 03/03/2019
+
+Create an iOS app using a navigation controller that allows users to move from one screen to another, and back to the homepage. Use Swift as your programming language and include the following modifications and features:
+
+Screen One (Homepage):
+Create a homepage that lists two countries of your choosing.
+Screen Two:
+List two places of interest in each country.
+The navigation must include an option to go back to the previous page or homepage.
+Screen Three:
+Create additional information for each place of interest.
+The navigation must include an option to go back to the previous page or homepage.
+Note: You can create controls using either UITableView, buttons, or images for navigation between screens.
+
+Compile all files into a ZIP folder.
+
+
+____________________________________________________________________________________________
+Week 3: Due 03/10/2019
+
+Modify the app you developed in the Week 2 Individual Assignment: Multi-screen App to reflect the following changes:
+
+Add an image related to the place of interest to each screen.
+Implement at least two different gestures in the app.
+Incorporate any faculty feedback provided.
+Use Swift as your programming language.
+
+Compile all files into a ZIP folder.
+
+
+
+____________________________________________________________________________________________
+Week 4 due 03/17/2019
+
+Deploy the app to a device for testing. Use Swift as your programming language, and include the following modifications and features:
+
+Screen One:
+Create an input panel in the middle of the screen that will allow the user to input a latitude and longitude coordinate. You can search the internet to find geocodes for any address.
+Provide two execution buttons labeled 'Service' and 'Map'.
+If the user clicks the Service button, take the input and build the appropriate NSURL to utilize the OpenUrl method found on the Shared App API. Ensure that the device can open the URL and provide an error dialog if there is an issue.
+If the user clicks the 'Map' button, pass the coordinates to the next screen and navigate to screen two.
+Screen Two:
+Use MapKit to display a map that fills the view using the coordinates from screen one. Add an annotation which places a pin icon at the latitude and longitude point.
+Compile all files into a ZIP folder.
+
+
+____________________________________________________________________________________________
+Week 5 Due 03/24
+
+Create an iOS app using Swift as your programming language and Xcode as your development software.
+
+Use the data below to create an employee entity for the volunteers with following attributes and data type:
+
+empID as integer
+fullName as String
+dateOfBirth as Date
+Employee ID
+Full Name
+Date of Birth
+1001
+John Doe
+8/3/60
+1002
+Cindy Gomez
+6/1/84
+1003
+Jane Patel
+4/18/72
+You should be able to store and retrieve the employee information entered by a user. Add a dialog pop-up that informs the user that information has been successfully saved. Once you run the app again, the data stored previously must be loaded, demonstrating data persistence using Core Data.
+
+Deploy the app to a device for testing.
+
+Compile all files into a ZIP folder.
